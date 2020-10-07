@@ -1,0 +1,7 @@
+.header-filter {
+    width: 100%;
+    height: 150px;
+    background: url(../assets/images/bg-header-desktop.svg) var(--cyan);
+    background-position: center;
+    background-size: cover;
+}
