@@ -14,7 +14,8 @@
 
 .filter {
     background: #fff;
-    padding: 1.5em 2em;
+    /* padding: 1.5em 2em; */
+    padding: 1.5em 2em 0em;
     border-radius: 10px;
     box-shadow: 0px 10px 20px -5px rgba(91, 164, 164, 0.25);
     margin-top: -40px;
@@ -22,6 +23,7 @@
 
 .filter-items {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .filter-items li {
@@ -36,6 +38,7 @@
     transition: all 0.25s ease;
     border-radius: 5px;
     line-height: 13px;
+    margin-bottom: 2em;
 }
 
 .filter-items li:last-child {
@@ -62,6 +65,7 @@
     font-weight: 700;
     position: relative;
     cursor: pointer;
+    margin-bottom: 1.3em;
 }
 
 .remove-all::before {

@@ -87,11 +87,12 @@ figure {
 }
 
 .item-skills ul {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 .item-skills ul li {
-    margin-right: 1em;
     color: var(--cyan);
     font-weight: 700;
     font-size: 13px;
@@ -110,4 +111,54 @@ figure {
 .item-skills ul li:hover {
     color: #fff;
     background-color: var(--cyan);
+}
+
+@media only screen and (max-width: 991px) {
+    .item-skills {
+        flex: 1;
+    }
+
+    .item-information {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-information {
+        margin-bottom: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .item-information {
+        width: 100%;
+        border-bottom: 2px solid #dadada;
+        padding-bottom: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .grid-item {
+        grid-template-columns: 1fr;
+        padding-top: 3em;
+        position: relative;
+        margin-top: 5em;
+    }
+
+    .item-image {
+        position: absolute;
+        left: 2em;
+        top: -40px;
+    }
+
+    figure {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
 }
