@@ -54,6 +54,28 @@ img {
     padding: 0 2em;
 }
 
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .jobs {
     padding-bottom: 5em;
+    flex: 1;
+}
+
+footer {
+    padding-bottom: 3em;
+}
+
+.attribution {
+    text-align: center;
+    margin: 0;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 700;
 }

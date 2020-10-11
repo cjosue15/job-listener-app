@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { company } from '../data';
+import Footer from './Footer';
 import GridItem from './GridItem';
 import HeaderFilter from './HeaderFilter';
 
@@ -28,6 +29,7 @@ const GridContainer = () => {
                         ))}
                 </div>
             </div>
+            <Footer />
         </>
     );
 };
