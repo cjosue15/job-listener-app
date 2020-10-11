@@ -74,7 +74,7 @@ const GridItem = ({
                     </div>
                 </div>
             )} */}
-            <div className='grid-item'>
+            <div className={`grid-item ${featured && 'border'}`}>
                 <div className='item-image'>
                     <figure>
                         <img src={logo} alt='manage' />

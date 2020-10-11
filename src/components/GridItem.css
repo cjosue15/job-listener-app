@@ -113,6 +113,10 @@ figure {
     background-color: var(--cyan);
 }
 
+.border {
+    border-left: 5px solid var(--cyan);
+}
+
 @media only screen and (max-width: 991px) {
     .item-skills {
         flex: 1;

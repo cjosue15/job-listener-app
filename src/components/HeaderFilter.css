@@ -82,3 +82,9 @@
 .remove-all:hover::before {
     width: 100%;
 }
+
+@media only screen and (max-width: 425px) {
+    .header-filter {
+        background: url('/images/bg-header-mobile.svg') var(--cyan);
+    }
+}
