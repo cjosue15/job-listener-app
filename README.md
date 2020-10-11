@@ -16,7 +16,7 @@ Ingresar en la consola `npm start` para poner a correr el dev server. Navegar en
 
 ## 🎨 Demo
 
-Puedes ver el demo aquí → [Job Listener App](https://jobber-filter.netlify.app/)
+Puedes ver el demo aquí → <a href="https://job-listner-app.netlify.app/" target="_blank">Job Listener App</a>
 
 ![](./design/desktop-preview.jpg)
 
